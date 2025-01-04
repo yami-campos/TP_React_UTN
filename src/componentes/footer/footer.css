@@ -1,0 +1,53 @@
+.footer-redes {
+    height: 300px;
+    background-position: center;
+    padding: 60px 0;
+    margin-top: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #f0f3f5;
+}
+
+.text{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h3{
+    font-size: 20px;
+    color: rgb(209, 47, 166);
+}
+
+hr{
+    width: 15%;
+    height: 3px; 
+    border-radius: 2px;
+    background-color: grey; 
+    border: none; 
+}
+
+
+.e-mail, .telefono{
+    text-decoration: underline;
+}
+
+.text-contacto{
+    text-align: center;
+}
+
+.iconos-footer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos-footer p{
+    font-size: 30px;
+    color: rgb(209, 47, 166);
+}

@@ -1,0 +1,86 @@
+.resumen-receta {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.resumen-receta:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.resumen-receta h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.resumen-receta ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resumen-receta li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.resumen-receta li:last-child {
+    border-bottom: none;
+}
+
+.resumen-receta input {
+    width: 120px;
+    padding: 8px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 5px;
+    text-align: center;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.resumen-receta input[value="0"] {
+    color: transparent;
+}
+
+.resumen-receta input:not([value="0"]) {
+    color: black;
+}
+
+.resumen-receta input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.totales {
+    margin-top: 25px;
+}
+
+.totales p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: #444;
+}
+
+.totales h4 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.totales p:hover {
+    color: #e64b87;
+    font-weight: 600;
+    transform: scale(1.05);
+    transition: color 0.3s ease, transform 0.3s ease;
+}

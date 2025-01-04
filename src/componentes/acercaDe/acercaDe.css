@@ -1,0 +1,19 @@
+
+.acercaDe{
+    background: #f0f3f5;
+    padding:60px 0;
+    
+}
+
+.acercaDe .acercaDe-titulo{
+    color:#000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.acercaDe .acercaDe-parrafo{
+    text-align: center;
+    color:#999999;
+    font-weight: 600;
+}

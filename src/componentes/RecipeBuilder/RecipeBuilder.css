@@ -1,0 +1,137 @@
+.recipe-builder {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.selected-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    gap: 15px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls .btn {
+    font-size: 0.9rem;
+    background-color: #ff5e9a;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quantity-controls .btn:hover {
+    background-color: #e64b87;
+}
+
+.remove-button {
+    font-size: 0.9rem;
+    background-color: #ff4c4c;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #d43f3f;
+}
+
+
+/* Estilo de los valores nutricionales */
+.nutritional-values {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.nutritional-values h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Fila de los valores nutricionales */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.input-row div {
+    flex: 1;
+}
+
+.nutritional-values input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.nutritional-values input:focus {
+    border-color: #ff5e9a;
+    outline: none;
+}
+
+/* Etiquetas de valores nutricionales */
+.nutritional-values label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Valores por defecto (cuando son 0) */
+.nutritional-values input[value="0"] {
+    color: transparent;
+}
+
+/* Valores diferentes de 0 */
+.nutritional-values input:not([value="0"]) {
+    color: black;
+}
+
+
+/* Botones generales */
+button {
+    padding: 6px 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5e9a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e64b87;
+}
