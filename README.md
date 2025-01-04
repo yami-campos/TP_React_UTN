@@ -49,8 +49,5 @@ Aplicación desarrollada en React que permite crear recetas personalizadas, sele
 
 ---
 
-## 📜 Licencia
-
-Proyecto bajo la Licencia MIT.
 
  
