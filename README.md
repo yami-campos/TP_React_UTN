@@ -44,7 +44,7 @@ Aplicación desarrollada en React que permite crear recetas personalizadas, sele
 
 
 ## 🌐 Despliegue en Vercel
-
+https://tp-react-utn.vercel.app/
 
 
 ---
